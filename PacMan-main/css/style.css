@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Настройки мира*/
+div.row {
+    height:20px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 0px;
+}
+
+/*Блоки*/
+div.brick{
+    background-color: blue;
+}
+
+/*Монетки*/
+div.coin{
+    background-image: url(../img/coin.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5px;
+}
+
+/*Пакман*/
+div#pacman{
+    background-image: url(../img/pacman.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+/*Призрак*/
+div#ghost{
+    background-image: url(../img/ghost.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+/*Очки*/
+div#score{
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+
+/*Движение пакмана*/
+.down{
+    transform: rotate(-90deg);
+    
+}
+.up{
+    transform: rotate(90deg);
+}
+.right{
+
+}
+.left{
+    transform: rotate(-180deg);
+}
+
+/*Конец игры*/
+#win{
+    background-image: url(../img/win.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 440px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#gameover{
+    background-image: url(../img/gameover.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 440px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#git
+{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin:50px auto;
+
+}
+#button
+{
+    position: absolute;
+    margin:0 auto;
+}
+
